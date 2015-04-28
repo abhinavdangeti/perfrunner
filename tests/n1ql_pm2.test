@@ -14,7 +14,7 @@ replica_number = 1
 password =
 
 [load]
-items = 5000000
+items = 500000
 size = 1024
 workers = 20
 
@@ -29,10 +29,10 @@ reads = 0
 updates = 100
 deletes = 0
 throughput = 0
-items = 5000000
+items = 500000
 size = 1024
 workers = 1
-time = 1800
+time = 300
 doc_gen = new
 n1ql_queries =
     SELECT * FROM `{bucket}` WHERE email.f.f = "{email[f][f]}";
